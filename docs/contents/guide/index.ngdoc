@@ -7,7 +7,7 @@
 [![Build Status: Linux](http://img.shields.io/travis/cork-labs/ng.cork.ui.stop-propagation/master.svg?style=flat-square)](https://travis-ci.org/cork-labs/ng.cork.ui.stop-propagation)
 [![Bower version](http://img.shields.io/bower/v/ng.cork.ui.stop-propagation.svg?style=flat-square)](https://github.com/cork-labs/ng.cork.ui.stop-propagation)
 
-> Provides a directive to stop propagation of selected events through the element
+> AngularjS component to stop propagation of selected events through the element
 
 
 ## Getting Started

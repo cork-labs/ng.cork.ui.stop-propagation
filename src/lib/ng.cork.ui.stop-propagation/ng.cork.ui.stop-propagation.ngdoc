@@ -2,7 +2,7 @@
 @name ng.cork.ui.stop-propagation
 @description
 
-> Provides a directive to stop propagation of selected events through the element.
+> AngularjS component to stop propagation of selected events through the element.
 
 # Dependencies
 
