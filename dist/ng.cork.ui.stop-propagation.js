@@ -1,5 +1,5 @@
 /**
- * ng.cork.ui.stop-propagation - v0.0.5 - 2015-04-09
+ * ng.cork.ui.stop-propagation - v0.0.6 - 2015-04-09
  * https://github.com/cork-labs/ng.cork.ui.stop-propagation
  *
  * Copyright (c) 2015 Cork Labs <http://cork-labs.org>
@@ -20,8 +20,8 @@
      * @scope
      * @restrict A
      *
-     * @param {boolean=} corkUiStopPropagation Provide an expression. When it evaluates to TRUE, propagation will not be stopped.
-     * @param {array=} events Optional, list of event names to prevent Defaults to `['click']`
+     * @param {boolean=} corkDisabled Provide an expression. When it evaluates to TRUE, propagation will not be stopped.
+     * @param {array=} corkEvents Optional, list of event names to prevent Defaults to `['click']`
      */
     module.directive('corkUiStopPropagation', [
         '$timeout',
@@ -29,8 +29,8 @@
             return {
                 restrict: 'A',
                 scope: {
-                    disabled: '=corkUiStopPropagation',
-                    events: '=corkUiPreventEvents'
+                    disabled: '=corkDisabled',
+                    events: '=corkEvents'
                 },
                 link: function ($scope, $element, $attrs) {
 

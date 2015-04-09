@@ -1,3 +1,11 @@
+<a name="v0.0.6"></a>
+### v0.0.6 (2015-04-09)
+
+
+#### Features
+
+* **stopPropagation:** renames attributes to "cork-disabled" and "cork-events" ([604aab4e](git@github.com:cork-labs/ng.cork.ui.stop-propagation/commit/604aab4e96e94d0f9ceab64042561e66907fac68))
+
 <a name="v0.0.5"></a>
 ### v0.0.5 (2015-04-09)
 
