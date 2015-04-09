@@ -32,7 +32,7 @@ Alternatively, whitelist specific events that should be kept from propagating.
 
 <pre>
 <div class="my-dialog" ng-key-press="" >
-    <input ng-model="search" cork-ui-stop-propagation="[keydown,keyup,keypress]" />
+    <input ng-model="search" cork-ui-stop-propagation cork-events="[keydown,keyup,keypress]" />
 </div>
 </pre>
 

@@ -1,0 +1,52 @@
+@ngdoc overview
+@name Basic Usage
+@description
+
+## Directive: [cork-ui-stop-propagation](#/api/ng.cork.ui.stop-propagation.corkUiStopPropagation)
+
+> Prevent certain events from propagating.
+
+<doc:example module="app" height="400" deps="src/lib/ng.cork.ui.stop-propagation/stopPropagation.js,src/lib/ng.cork.ui.stop-propagation.focus-on/focusOn.js">
+    <doc:source>
+        <script>
+        angular.module('app', ['ng.cork.ui.stop-propagation'])
+        .controller('exampleCtrl', [
+            '$scope',
+            '$window',
+            function ($scope, $window) {
+                $scope.log = '';
+                $scope.click = function ($event) {
+                    $scope.log += 'clicked on ' + $event.currentTarget.tagName + '\n';
+                };
+                $scope.hover = function ($event) {
+                    $scope.log += 'hover on ' + $event.currentTarget.tagName + '\n';
+                };
+            }
+        ]);
+        </script>
+        <style>
+        .container {
+           padding: 10px;
+        }
+        .area {
+            padding: 10px;
+            background-color: #eee;
+            margin: 0 0 10px;
+        }
+        .log {
+            width: 100%;
+            height: 200px;
+        }
+        </style>
+        <div data-ng-controller="exampleCtrl" class="container">
+            <p>The red button prevent 'click' and 'mouseover' events from propagating</p>
+            <div class="area" ng-click="click($event)" ng-mouseover="hover($event)">
+                <button class="btn btn-danger" ng-click="click($event)" ng-mouseover="hover($event)" cork-ui-stop-propagation cork-events="['click', 'mouseover']">click me</button>
+            </div>
+            <div class="area" ng-click="click($event)" ng-mouseover="hover($event)" >
+                <button class="btn btn-default" ng-click="click($event)" ng-mouseover="hover($event)" >click me</button>
+            </div>
+            <textarea class="log" ng-model="log"></textarea>
+        </div>
+    </doc:source>
+</doc:example>
