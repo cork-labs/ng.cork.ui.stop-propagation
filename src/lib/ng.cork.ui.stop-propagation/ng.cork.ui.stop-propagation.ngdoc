@@ -1,0 +1,38 @@
+@ngdoc overview
+@name ng.cork.ui.stop-propagation
+@description
+
+> Provides a directive to stop propagation of selected events through the element.
+
+# Dependencies
+
+- None.
+
+
+# Usage
+
+Add the module as a dependency.
+
+<pre>
+angular.module('app', ['ng.cork.ui.stop-propagation']);
+</pre>
+
+
+## Directive [cork-ui-stop-propagation](#/api/ng.cork.ui.stop-propagation.corkUiStopPropagation)
+
+Add this directive to your elements to stop propagation click events.
+
+<pre>
+<div ng-click="dismiss()" >
+    <button cork-ui-stop-propagation>clicking me will never trigger dismiss()</button>
+</div>
+</pre>
+
+Alternatively, whitelist specific events that should be kept from propagating.
+
+<pre>
+<div class="my-dialog" ng-key-press="" >
+    <input ng-model="search" cork-ui-stop-propagation="[keydown,keyup,keypress]" />
+</div>
+</pre>
+

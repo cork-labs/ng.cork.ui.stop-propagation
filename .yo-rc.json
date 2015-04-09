@@ -1,0 +1,28 @@
+{
+  "generator-nglib": {
+    "project.name": "ng.cork.ui.stop-propagation",
+    "project.description": "Provides a directive to stop propagation of selected events through the element",
+    "bower.id": "ng.cork.ui.stop-propagation",
+    "npm.id": "ng.cork.ui.stop-propagation",
+    "angular.module": "ng.cork.ui.stop-propagation",
+    "has.tpl": false,
+    "has.css": false,
+    "has.less": false,
+    "has.sass": false,
+    "has.docs": true,
+    "use.git": true,
+    "github.username": "cork-labs",
+    "github.reponame": "ng.cork.ui.stop-propagation",
+    "homepage.url": "https://github.com/cork-labs/ng.cork.ui.stop-propagation",
+    "docs.url": "http://jarvis.cork-labs.org/ng.cork.ui.stop-propagation/current/docs",
+    "bugs.url": "https://github.com/cork-labs/ng.cork.ui.stop-propagation/issues",
+    "license.name": "MIT",
+    "license.url": "http://cork-labs.mit-license.org/2015",
+    "author.name": "Cork Labs",
+    "author.email": "contact@cork-labs.org",
+    "author.url": "http://cork-labs.org",
+    "use.travis": true,
+    "travis.id": "cork-labs/ng.cork.ui.stop-propagation",
+    "repo.url": "git@github.com:cork-labs/ng.cork.ui.stop-propagation.git"
+  }
+}

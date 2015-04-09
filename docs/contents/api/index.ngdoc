@@ -1,0 +1,14 @@
+@ngdoc overview
+@name API Reference
+@description
+
+# ng.cork.ui.stop-propagation API Reference
+
+> Welcome to the **ng.cork.ui.stop-propagation** API reference.
+
+If you want to know how **ng.cork.ui.stop-propagation** works, checkout the {@link guide/ guide} and the {@link demos/ demos}.
+
+
+## Modules
+
+- **[ng.cork.ui.stop-propagation](#/api/ng.cork.ui.stop-propagation)** - Provides a directive to stop propagation of selected events through the element.
