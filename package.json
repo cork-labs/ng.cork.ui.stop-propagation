@@ -1,6 +1,6 @@
 {
   "name": "ng.cork.ui.stop-propagation",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Provides a directive to stop propagation of selected events through the element",
   "author": {
     "name": "Cork Labs",
