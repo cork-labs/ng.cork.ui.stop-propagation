@@ -1,5 +1,5 @@
 /**
- * ng.cork.ui.stop-propagation - v0.0.7 - 2015-04-17
+ * ng.cork.ui.stop-propagation - v0.0.8 - 2015-05-11
  * https://github.com/cork-labs/ng.cork.ui.stop-propagation
  *
  * Copyright (c) 2015 Cork Labs <http://cork-labs.org>
